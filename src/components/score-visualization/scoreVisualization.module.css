@@ -1,0 +1,16 @@
+.barContainer {
+  display: flex;
+  margin-top: 2em;
+}
+
+.name {
+  margin: 0;
+  font-size: 1.2em;
+}
+
+.bmiScore {
+  font-weight: bold;
+  color: #007fc8;
+  font-size: 4em;
+  margin: 0;
+}
