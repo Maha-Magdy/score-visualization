@@ -43,7 +43,7 @@ npm start
 ```sh
 src/App.tsx
 ```
-and change the value of the props name, and bmiScore then save.
+and change the value of the props name, and bmiScore that belong to ScoreVisualization component then save.
 
 ## Author
 
