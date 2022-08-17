@@ -9,7 +9,7 @@ A "Score Visualization" is a simple widget needing only the name, and the BMI sc
   
 - if the BMI score is bigger than 90 it will be overweight and the orange color represents it with an indicator showing the percentage on the bar.
 
-![screenshot](app_screenshot_1.png)
+![screenshot](./app_screenshot_1.png)
   
 This application was built with React.
 ## Built With
