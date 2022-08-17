@@ -12,7 +12,6 @@ function WeightUnit({ type, active, bmiScore }: { type: string, active: boolean,
         }
     };
 
-    console.log(type, active, indexPosition());
     return (
         <div className={styles.unitContainer} data-type={type}>
             {active && <div className={styles.triangle} style={{ left: `calc(${indexPosition()}% - 15px)` }}></div>}
@@ -21,7 +20,6 @@ function WeightUnit({ type, active, bmiScore }: { type: string, active: boolean,
             </div>
             <p>{type}</p>
         </div>
-
     );
 }
 
