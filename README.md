@@ -1,46 +1,68 @@
-# Getting Started with Create React App
+# Score Visualization
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## About
 
-## Available Scripts
+A "Score Visualization" is a simple widget needing only the name, and the BMI score of the animal which is between 0 and 120, and will nicely visualize the BMI score according to this calculation:
+- if the BMI score less than 30 it will be underweight and the yellow color represents it with an indicator showing the percentage on the bar.
 
-In the project directory, you can run:
+- if the BMI score is between 30 and 90 it will be normal and the green color represents it with an indicator showing the percentage on the bar.
+  
+- if the BMI score is bigger than 90 it will be overweight and the orange color represents it with an indicator showing the percentage on the bar.
 
-### `npm start`
+![screenshot](app_screenshot_1.png)
+  
+This application was built with React.
+## Built With
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+- HTML, CSS, TypeScript.
+- React.
+- VisualStudio Code, Git, & GitHub.
+## Pre-requisites
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+- NodeJs
+- Git
+## Getting Started
 
-### `npm test`
+To run this project, you only need a computer with a browser installed, and follow these steps:
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-### `npm run build`
+1. In your terminal, in the folder of your preference, type the following bash command to clone this repository:
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+```sh
+git clone git@github.com:Maha-Magdy/score-visualization.git
+```
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+2. Now that you have already cloned the repo run the following commands to get the project up and running:
+```sh
+cd score-visualization
+npm install
+npm start
+```
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+3. To change the name of the animal, and its BMI score to see the difference in the UI go to 
+```sh
+src/App.tsx
+```
+and change the value of the props name, and bmiScore then save.
 
-### `npm run eject`
+## Author
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+👤 **Maha Magdy**
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+- GitHub: [Maha-Magdy](https://github.com/Maha-Magdy)
+- Twitter: [@Maha_M_Abdelaal](https://twitter.com/Maha_M_Abdelaal)
+- LinkedIn: [Maha Magdy](https://www.linkedin.com/in/maha-magdy-abdelaal/)
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+## 🤝 Contributing
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+Contributions, issues, and feature requests are welcome!
 
-## Learn More
+Feel free to check the [issues page](https://github.com/Maha-Magdy/score-visualization/issues).
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+## Show your support
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+Give a ⭐️ if you like this project!
+
+## 📝 License
+
+This project is [MIT](./LICENSE) lice
